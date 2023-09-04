@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+
+   #hero{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+   }
+   #navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(60, 57, 57);
+   width: 100vw;
+   height: 70px;
+
+   
+   }
+   nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    
+   
+   }
+   nav ul li button{
+      color: rgb(5, 5, 5);
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+      
+    
+   }
+   #b1{
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid red;
+    
+   }
+   #b2{
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid orangered;
+   }
+   #b3{
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid yellow;
+   }
+   #b4{
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid green;
+   }
+   #b5{
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid  blue;
+   }
+   #b6{
+    background-color: indigo;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid  indigo;
+   }
+   #b7{
+    background-color:rgb(91, 6, 91);
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid rgb(91, 6, 91);
+   }
+   .logo{
+    color: rgb(6, 6, 6);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ #content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+ }
+ h3{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+    
+ }
+ h5{
+    color:black;
+    margin-bottom: 50px;
+    font-size: 20px;
+ }
+ p{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 10px;
+ }
